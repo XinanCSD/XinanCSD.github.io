@@ -5,21 +5,21 @@
 #### 实现原理
 
 1. python 的 [lxml](http://lxml.de/index.html) 库的 [etree](http://lxml.de/tutorial.html) 模块可以实现解析 HTML 代码并写入 html 文件。如下所示：
+
 ```python
 from lxml import etree
-root = """
-<title>lxml example</title>
-<h1>Hello lxml!</h1>
-"""
+root = """<title>lxml example</title><h1>Hello lxml!</h1>"""
 html = etree.HTML(root)
 tree = etree.ElementTree(html)
 tree.write('hellolxml.html')
 ```
+
 2. pandas 的 DataFrame 数据，可直接调用 [df.to_html()](http://pandas.pydata.org/pandas-docs/stable/io.html#io-html) 函数将 DataFrame 数据转为 HTML 代码字符串。
 3. 从 HTML 文件中可以发现，内嵌的图片是以 base64 代码的形式嵌入的。具体形式为 `<img src="data:image/png;base64,iVBORw... `。后面的 iVBORw...即为图像的 Base64 编码信息。故而只需将图像转为 base64 代码即可将图像嵌入 HTML 代码字符串中。python 的 base64 模块可以实现将二进制文件转为 base64 编码，而 matplotlib 的 [pyplot.savefig()](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.savefig.html#matplotlib.pyplot.savefig) 函数可以将绘图窗口保存为二进制文件格式。
 
 #### python 代码实现
 最终便可使用 python 实现将将 pandas 的 DataFrame 数据以及 matplotlib 绘图的图像保存为 HTML 文件，代码如下。（以下代码基于 python 3.6 实现的。）
+
 ```python
 # 导入所需模块
 import pandas as pd
