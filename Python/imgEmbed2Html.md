@@ -3,8 +3,9 @@
 > 实现用 python 将 pandas 的 DataFrame 数据以及 matplotlib 绘图的图像保存为 HTML 文件
 
 #### 实现原理
+
 1. python 的 [lxml](http://lxml.de/index.html) 库的 [etree](http://lxml.de/tutorial.html) 模块可以实现解析 HTML 代码并写入 html 文件。如下所示：
-```
+```python
 from lxml import etree
 root = """
 <title>lxml example</title>
@@ -19,7 +20,7 @@ tree.write('hellolxml.html')
 
 #### python 代码实现
 最终便可使用 python 实现将将 pandas 的 DataFrame 数据以及 matplotlib 绘图的图像保存为 HTML 文件，代码如下。（以下代码基于 python 3.6 实现的。）
-```
+```python
 # 导入所需模块
 import pandas as pd
 import matplotlib.pyplot as plt

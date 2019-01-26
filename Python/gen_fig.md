@@ -3,7 +3,7 @@
 使用 Python 合成 gif 动态图，程序如下：
  > 原图片需具有相同大小
 
-```
+```python
 import imageio
 import os
 import os.path
