@@ -13,8 +13,9 @@
 
 - [python 的 IDLE 无法连接以及 jupyter notebook 无法打开浏览器](./Python/firewall_errors.md)
 
-- [python 实现将 pandas 数据和 matplotlib 绘图嵌入 html 文件]()
+- [python 实现将 pandas 数据和 matplotlib 绘图嵌入 html 文件](./Python/imgEmbed2Html.md)
 
+- [Python 生成 GIF 文件](./Python/gen_fig.md)
 
 
 ## 机器学习
