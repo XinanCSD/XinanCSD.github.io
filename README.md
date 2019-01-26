@@ -1,6 +1,6 @@
 ## Welcome to CSD's blogs
 
-博客地址：https://xinancsd.github.io。
+博客地址：[https://xinancsd.github.io](https://xinancsd.github.io)。
 
 博客项目地址: [XinanCSD.github.io](https://github.com/XinanCSD/XinanCSD.github.io)。
 
@@ -16,6 +16,8 @@
 - [python 实现将 pandas 数据和 matplotlib 绘图嵌入 html 文件](./Python/imgEmbed2Html.md)
 
 - [Python 生成 GIF 文件](./Python/gen_fig.md)
+
+-[ipywidgets 包实现 jupyter notebook 的控件交互](./Python/ipywidgets.md)
 
 
 ## 机器学习
