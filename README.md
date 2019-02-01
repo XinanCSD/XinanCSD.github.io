@@ -35,6 +35,7 @@
 
 ## 机器学习
 
+- [python 实现中文文本分类](./MachineLearning/text_classifition.md)
 
 ## Java
 
