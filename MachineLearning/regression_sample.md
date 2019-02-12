@@ -164,7 +164,7 @@ plt.show()
 绘制代价函数随迭代次数的变化：
 ![](../resources/regression/costJ.png)
 
-绘制样例数据与你和曲线：
+绘制样例数据与拟合曲线：
 ```python
 def plot_reg_line(X, y, theta):
     X = matrix(X)
@@ -205,7 +205,7 @@ def normal_equ(X, y):
 ```
 由正规方程求解的就是最佳拟合曲线：
 ```python
-x, y = datasets.loadDataSet('./resources/ex0.txt')
+x, y = datasets.loadDataSet('ex0.txt')
 theta = normal_equ(x, y)
 print(theta)
 plot_reg_line(x, y, theta)
