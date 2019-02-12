@@ -39,6 +39,8 @@
 
 - [预测回归一：简单线性回归](./MachineLearning/regression_sample.md)
 
+- [预测回归二：局部加权回归和惩罚线性回归](./MachineLearning/regression_CV.md)
+
 ## Java
 
 - [Java 使用阻塞队列 BlockingQueue 多线程在一个目录及它的所以子目录下搜索所有文件，打印出包含关键字的行](./Java/blocking_queue.md)
