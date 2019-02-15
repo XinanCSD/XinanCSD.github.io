@@ -16,7 +16,7 @@ import cv2
 class Setting:
     """配置类"""
     def __init__(self):
-        self.data_dir = '/Users/ivzbv/WorkLocal/programing/datasets/mnist/'
+        self.data_dir = 'mnist_data/'
         self.train_dir = self.data_dir + 'train'
         self.test_dir = self.data_dir + 'test'
         self.img_width = 28
