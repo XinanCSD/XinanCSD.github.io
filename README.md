@@ -41,6 +41,8 @@
 
 - [预测回归二：局部加权回归和惩罚线性回归](./MachineLearning/regression_CV.md)
 
+- [keras 入门：卷积神经网络实现 mnist 手写数字识别](./MachineLearning/mnist_keras.md)
+
 ## Java
 
 - [Java 使用阻塞队列 BlockingQueue 多线程在一个目录及它的所以子目录下搜索所有文件，打印出包含关键字的行](./Java/blocking_queue.md)
