@@ -111,11 +111,11 @@ logging.basicConfig(
 
 输出结果变成了下面这样：
 ```text
-2019/02/27 11:16:46 - root - CRITICAL - logging critical message.
-2019/02/27 11:16:46 - root - ERROR - logging error message
-2019/02/27 11:16:46 - root - WARNING - logging warning message
-2019/02/27 11:16:46 - root - INFO - logging info message
-2019/02/27 11:16:46 - root - DEBUG - logging debug message
+2019/01/26 21:16:46 - root - CRITICAL - logging critical message.
+2019/01/26 21:16:46 - root - ERROR - logging error message
+2019/01/26 21:16:46 - root - WARNING - logging warning message
+2019/01/26 21:16:46 - root - INFO - logging info message
+2019/01/26 21:16:46 - root - DEBUG - logging debug message
 ```
 
 - `filename` 指定输出的日志文件，示例：
@@ -193,11 +193,11 @@ logger.debug('logger debug message')
 
 输出的日志信息变成：
 ```text
-2019/02/27 12:49:49 - testLogger - CRITICAL - logger critical message.
-2019/02/27 12:49:49 - testLogger - ERROR - logger error message
-2019/02/27 12:49:49 - testLogger - WARNING - logger warning message
-2019/02/27 12:49:49 - testLogger - INFO - logger info message
-2019/02/27 12:49:49 - testLogger - DEBUG - logger debug message
+2019/01/26 21:49:49 - testLogger - CRITICAL - logger critical message.
+2019/01/26 21:49:49 - testLogger - ERROR - logger error message
+2019/01/26 21:49:49 - testLogger - WARNING - logger warning message
+2019/01/26 21:49:49 - testLogger - INFO - logger info message
+2019/01/26 21:49:49 - testLogger - DEBUG - logger debug message
 ```
 与第一节中的区别仅在于 logger 的名称，其他设置的效果相同。
 
