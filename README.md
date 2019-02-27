@@ -31,7 +31,7 @@
 
 - [python 爬虫获取网页 html 内容以及下载附件的方法](./Python/gethtmlcontent.md)
 
-
+- [python 的 logging 模块日志功能使用详解](./Python/usinglog.md)
 
 ## 机器学习
 
