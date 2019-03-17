@@ -33,6 +33,9 @@
 
 - [python 的 logging 模块日志功能使用详解](./Python/usinglog.md)
 
+- [Python 爬虫：requests 和 selenium 伪装 headers 和代理应对反爬机制](./Python/anti_crawl_strategy.md)
+
+
 ## 机器学习
 
 - [python 实现中文文本分类](./MachineLearning/text_classifition.md)
