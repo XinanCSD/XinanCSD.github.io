@@ -35,6 +35,7 @@
 
 - [Python 爬虫：requests 和 selenium 伪装 headers 和代理应对反爬机制](./Python/anti_crawl_strategy.md)
 
+- [基于图像识别和文字识别用 Python 提取视频字幕](./Python/subtitle.md)
 
 ## 机器学习
 
