@@ -24,8 +24,6 @@ print(data)
 8      0           3
 9      0           3
 10     0           3
-
-Process finished with exit code 0
 ```
 
 
