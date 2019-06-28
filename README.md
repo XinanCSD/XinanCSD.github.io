@@ -51,6 +51,8 @@
 
 - [数据预处理：线性插值填充缺失值，及其 PySpark 的实现](./Python/fill_na_by_linear.md)
 
+- [PySaprk 将 DataFrame 数据保存为 Hive 分区表](./Python/pyspark_save_hive_table.md)
+
 ## Java
 
 - [Java 使用阻塞队列 BlockingQueue 多线程在一个目录及它的所以子目录下搜索所有文件，打印出包含关键字的行](./Java/blocking_queue.md)
