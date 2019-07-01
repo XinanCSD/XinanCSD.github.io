@@ -37,6 +37,9 @@
 
 - [基于图像识别和文字识别用 Python 提取视频字幕](./Python/subtitle.md)
 
+- [批量修改图片像素大小：Python GUI 交互界面实现](./Python/picture_convertor_UI.md)
+
+
 ## 机器学习
 
 - [python 实现中文文本分类](./MachineLearning/text_classifition.md)
@@ -52,6 +55,8 @@
 - [数据预处理：线性插值填充缺失值，及其 PySpark 的实现](./Python/fill_na_by_linear.md)
 
 - [PySaprk 将 DataFrame 数据保存为 Hive 分区表](./Python/pyspark_save_hive_table.md)
+
+
 
 ## Java
 
