@@ -39,6 +39,7 @@
 
 - [批量修改图片像素大小：Python GUI 交互界面实现](./Python/picture_convertor_UI.md)
 
+- [spark-submit 命令使用详解](./Python/spark-submit_usage.md)
 
 ## 机器学习
 
