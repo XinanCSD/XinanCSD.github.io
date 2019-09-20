@@ -41,6 +41,8 @@
 
 - [spark-submit 命令使用详解](./Python/spark-submit_usage.md)
 
+- [Django + uwsgi + nginx 部署 Python Web 应用](./Python/Django_uWSGI_nginx.md)
+
 ## 机器学习
 
 - [python 实现中文文本分类](./MachineLearning/text_classifition.md)
